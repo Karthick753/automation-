@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>UrbanPro QA Failure Reports</title>
+<title>UrbanPro QA Reports</title>
 <style>
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 760px; margin: 60px auto; padding: 0 20px; color: #0f172a; }
   h1 { font-size: 22px; }
@@ -11,8 +11,12 @@
 </style>
 </head>
 <body>
-<h1>⚡ UrbanPro QA Failure Reports</h1>
-<p>This page is published automatically by the AI QA Workspace. When a compiled test suite run has unresolved failures, that run's HTML report is pushed here and linked directly from the Google Chat notification.</p>
-<p>Nothing has been published yet. Reports will appear under <code>/reports/</code> when a suite run fails.</p>
+<h1>⚡ UrbanPro QA Reports</h1>
+<p>This page is published automatically by the AI QA Workspace after every compiled test suite run, and linked directly from the Google Chat notification.</p>
+<p>Reports are kept in two separate folders so passing and failing runs never get mixed up:</p>
+<ul>
+  <li><code>/reports/passed/</code> &mdash; runs where every test case passed</li>
+  <li><code>/reports/failed/</code> &mdash; runs with at least one unresolved failure</li>
+</ul>
 </body>
 </html>
